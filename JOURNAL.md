@@ -4,7 +4,28 @@ author: "Leo Hsia"
 description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It will contain 8 Glorious Panda switches with a EC11 rotary encoder. The keycaps will be taken from a set of GMK Samarais, with a custom PCB and a 3d printed case."
 created_at: "2026-04-28"
 ---
+# May 14: ordered PCB (YAY) and then added routing holes. 
+Title speaks mainly for itself. Took forever to add because I spent like 30 mins alone (didn't add to total time because atp this level of stupidity shouldnt count) on getting the stupid file to upload to JLCpcb. Guess the issue. I didn't have an account. Apparently by not having an account, uploading gerber files doesn't even work properly... 
 
+Next steps: Finish CAD
+
+![ordered!](journal_imgs/order.png)
+![final gerbers](journal_imgs/gerber.png)
+**Total time spent: 0.5 hours**
+# May 13: Started to learn CAD a bit, and worked on cadding a little
+I have no idea to learn cad. Well okay thats a bit of a lie, I have had about 45 minutes of lessons. Regardless, I forgot almost all of it, almost cried while trying to import my STEP file into fusion (i couldn't figure out how to make rigid bodies). Then i crashed out while looking for 3d models of cherry mx switches that don't have 5 pins (i was picky). 
+Next step: Order PCB & CAD more
+![cad](journal_imgs/may13cad.png)
+**Total time spent: 1 hours**
+
+# May 12: Added a switch (I realized that because its bluetooth it should prob have a power off switch so it doesnt drain)
+
+Title kinda speaks for itself, I had the brilliant realization that theres a reason bluetooth products have well an off switch. So i added one. Also I finalized and checked with HC members to sign off to check it would work!
+
+Next step: Order PCB & CAD
+
+![updated routing](journal_imgs/may12.1.png)
+**Total time spent: 0.25 hours**
 # May 11: Learned how to edit a schematic (i hate speedstudio) and i messed up again
 So it turns out between my sickness and lack of sleep I think i butchred it again. For some reason i thought I should be using a xiao s3, but in actauality i should have been using a XIAO nRF52840. Ima be honest i have ZERO clue where i came up with it, but while trying to debug my S3 work, and talking to someone on hack club, they pointed out the fact that I was using very overkill parts, and frankly not correct (goated asl)
 
@@ -12,7 +33,12 @@ So it turns out between my sickness and lack of sleep I think i butchred it agai
 I DID IT THERE ARE NO MORE ERRORS I HAD TO TEACH MSYELEF HOW TO EDIT A SCHEAMTIC BUT I DID IT (editor leo context: xiao messed up their schematics and footprints, so i had to learn how to manually edit a schematic and their pin numbers to make it align with the footprint, and then had to reroute the entire thing again.)
 ![ratsnest](journal_imgs/may11.1.png)
 ![fully routed!](journal_imgs/may11.2.png)
+
+Next steps: Check PCB with hackclub
+
+
 **Total time spent: 1 hours**
+
 
 # May 9: PCB design hell
 
@@ -36,6 +62,8 @@ TLDR (Leos comments from days later):
 - went through routing hell and how to make a schematic properly work
 - accidently used two different chipsets (spoiler alert its not the last)
 
+Next step: Fix all the DRC errors
+
 ![cry over schematics](journal_imgs/may9.1.png)
 ![cry over routing](journal_imgs/may9.2.png)
 ![cry over DRC](journal_imgs/may9.3.png)
@@ -44,6 +72,7 @@ TLDR (Leos comments from days later):
 # May 5: Rotary encoders arrived!
 Today I tested out rotary encoders, for volume (once again claude firmware), and button control! While I don't have a photo of it exactly, I have added a photo of the exact model I used (EC11)
 
+Next Step: PCB (i kept lying to myself)
 
 ![ec11](journal_imgs/EC11.png)
 **Total time spent: 0.25 hours**
@@ -52,6 +81,8 @@ Today I tested out rotary encoders, for volume (once again claude firmware), and
 Today I worked on my demo, where I concluded that connecting a GPIO pin to the switch to GND would work. While I was almost certain it would work, I double checked. I also used Claude for firmware, to test out the BLE functionality. 
 
 The image below is not 100% accurate, but was the best I had im sorry :(
+
+Next Step: PCB
 
 ![demo](journal_imgs/demo1.png)
 **Total time spent: 0.25 hours**
@@ -70,6 +101,8 @@ During this time, the main thing I learned was I would have to use a lipo batter
 - Switches 
 - Keycaps
 - Rotary knob (EC11)
+
+Next Step: PCB
 
 ![Keycap + Switch](journal_imgs/key.png)
 
