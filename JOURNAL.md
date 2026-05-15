@@ -5,14 +5,20 @@ description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It wi
 created_at: "2026-04-28"
 ---
 
-# Disclaimer/Notes
-I am importing most of this journal from a previous google doc that I had running for it. Times to do things may look crazy but i swear im not commiting fraud im just a bit stupid and this is my first project. If verb tense look weird, sorry, I am rewriting some entries to make it more clear (my old ones kinda sucked).
+
+# May 5: Rotary encoders arrived!
+Today I tested out rotary encoders, for volume (once again claude firmware), and button control! While I don't have a photo of it exactly, I have added a photo of the exact model I used (EC11)
 
 
+![ec11](journal_imgs/EC11.png)
+**Total time spent: 0.25 hours**
 
 # May 1: Did a quick demo
 Today I worked on my demo, where I concluded that connecting a GPIO pin to the switch to GND would work. While I was almost certain it would work, I double checked. I also used Claude for firmware, to test out the BLE functionality. 
 
+The image below is not 100% accurate, but was the best I had im sorry :(
+
+![demo](journal_imgs/demo1.png)
 **Total time spent: 0.25 hours**
 
 
@@ -27,6 +33,9 @@ During this time, the main thing I learned was I would have to use a lipo batter
 - ESP 32 
 - PCB
 - Switches 
+- Keycaps
 - Rotary knob (EC11)
+
+![Keycap + Switch](journal_imgs/key.png)
 
 **Total time spent: 0.75 hours**
