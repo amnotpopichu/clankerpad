@@ -5,6 +5,41 @@ description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It wi
 created_at: "2026-04-28"
 ---
 
+# May 11: Learned how to edit a schematic (i hate speedstudio) and i messed up again
+So it turns out between my sickness and lack of sleep I think i butchred it again. For some reason i thought I should be using a xiao s3, but in actauality i should have been using a XIAO nRF52840. Ima be honest i have ZERO clue where i came up with it, but while trying to debug my S3 work, and talking to someone on hack club, they pointed out the fact that I was using very overkill parts, and frankly not correct (goated asl)
+
+
+I DID IT THERE ARE NO MORE ERRORS I HAD TO TEACH MSYELEF HOW TO EDIT A SCHEAMTIC BUT I DID IT (editor leo context: xiao messed up their schematics and footprints, so i had to learn how to manually edit a schematic and their pin numbers to make it align with the footprint, and then had to reroute the entire thing again.)
+![ratsnest](journal_imgs/may11.1.png)
+![fully routed!](journal_imgs/may11.2.png)
+**Total time spent: 1 hours**
+
+# May 9: PCB design hell
+
+This log is very disorganized and borderline dysfunctional because im editing it like 7 times and just using it as a running log rather
+
+TIL that my esp32 board wont work, and I will need to piviot to a different board with the same chip the xiao s3. This is because I would have otherwise needed to buy a separate converter for my voltage, and between shipping and lead times, it would make more sense (and would be cheaper) to buy a brand new board, the s3. This actually removes my need for the voltage regulators and would remove a USBC port that I would have otherwise needed (1 for flashing 1 for charging), and removes the risk of me blowing up my converter (if you flash you cant have battery power otherwise the battery manager goes kaboom).
+
+
+Also at first i thought it would be the c3, then i learned it isn’t, and needs to be an s3 (c3 doesn’t have usb keyboard support, but somehow has bluetooth).
+
+Worked on pcb design
+
+
+I think after a lot of work i routed my entire PCB. im going to put my errors in here because im lazy and am very tired (its 11 pm and ive been working for over 3 hours straight). The tldr is that the funny schematic im using doesnt line up with my second schematic (yeah i need 2 for some reason for the pcb and for the editor idk why) (in technical terms PCB vs schematic, or footprints vs symbol). Regardless things that should have lined up didnt, and I had to remap half of it, and ignore 9 errors. Its very janky but i need to look into it more and confirm (with real people not just claude) that this won’t blow up. :D also i may need a fuse but thats a funny thing for later.
+
+Fun little thing I realized -- I didn’t read any of the Xiao’s spec sheet (which I 100% should have.) Luckily, turns out the lipo battery and the battery in power on the xiao have the exact voltage I need!
+
+
+TLDR (Leos comments from days later):
+- Learned how to design a PCB
+- went through routing hell and how to make a schematic properly work
+- accidently used two different chipsets (spoiler alert its not the last)
+
+![cry over schematics](journal_imgs/may9.1.png)
+![cry over routing](journal_imgs/may9.2.png)
+![cry over DRC](journal_imgs/may9.3.png)
+**Total time spent: 3.5 hours**
 
 # May 5: Rotary encoders arrived!
 Today I tested out rotary encoders, for volume (once again claude firmware), and button control! While I don't have a photo of it exactly, I have added a photo of the exact model I used (EC11)
