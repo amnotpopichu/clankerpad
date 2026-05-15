@@ -13,7 +13,7 @@ I am importing most of this journal from a previous google doc that I had runnin
 # May 1: Did a quick demo
 Today I worked on my demo, where I concluded that connecting a GPIO pin to the switch to GND would work. While I was almost certain it would work, I double checked. I also used Claude for firmware, to test out the BLE functionality. 
 
-**Total time spent: 1 hours**
+**Total time spent: 0.25 hours**
 
 
 # April 28: Looked into parts 
