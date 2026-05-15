@@ -2,10 +2,16 @@
 title: "Clankerpad"
 author: "Leo Hsia"
 description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It will contain 8 Glorious Panda switches with a EC11 rotary encoder. The keycaps will be taken from a set of GMK Samarais, with a custom PCB and a 3d printed case."
-created_at: "2026-04-28"
 ---
+# May 15: CADDED
+Guess who isnt good at rigid bodies. Me! I kept doing the same thing over and over again, wondering why it wasnt rigid, then realized I was selecting the wrong one... Anyways, I added all my switches, added the rotrary encoder, lipo battery, and on off switch.
+
+Next steps: Finsih the case
+
+![title](journal_imgs/may15cad.png)
+**Total time spent: 0.75 hours**
 # May 14: ordered PCB (YAY) and then added routing holes. 
-Title speaks mainly for itself. Took forever to add because I spent like 30 mins alone (didn't add to total time because atp this level of stupidity shouldnt count) on getting the stupid file to upload to JLCpcb. Guess the issue. I didn't have an account. Apparently by not having an account, uploading gerber files doesn't even work properly... 
+Title speaks mainly for itself. Took forever to add because I spent like 30 mins alone (didn't add to total time because atp this level of stupidity shouldnt count) on getting the stupid file to upload to JLCpcb. Guess the issue. I didn't have an account. Apparently by not having an account, uploading gerber files doesn't even work properly... (im really slow i don't really know how to use fusion)
 
 Next steps: Finish CAD
 
