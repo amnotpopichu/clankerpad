@@ -3,12 +3,20 @@ title: "Clankerpad"
 author: "Leo Hsia"
 description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It will contain 8 Glorious Panda switches with a EC11 rotary encoder. The keycaps will be taken from a set of GMK Samarais, with a custom PCB and a 3d printed case."
 ---
+# May 21: CASE IS ALMOST FULLY DONE!!
+This is so incredibly impressive how badly I messed it up. I managed to print my PCB, with my measurements for screw holes set at 3 mm for M3, but i set it as radius. oml. anyways, I fixed it, and finished designing the rest of the case (i hope) I still need to add my line to where my 3d print is split in two, so it can print properly. Had to spend about an hour on a call with my friend (who knows cad) on how to actaully get my models to work (spoiler alert don't use capture position). Today I learned how section analysis works, how to use projections properly, that I need to check every measurement 5 times before sending it off to the manufacturer otherwise ill mess up screwholes again. 
+
+Also my really scuffed solution to the screw hole issue was to make a sandwich and hope that the tolerences don't get messed up and can actaully hold the PCB in place without breaking. (we will find out once i print). I think I will use glue to bind the two parts of the print together.
+
+Next steps: Finish case fully, and add holes, double check, and try to figure out how to use a 3d printer.
+![cad](journal_imgs/may21cad.png)
+**Total time spent: 1.5 hours**
 # May 15: CADDED
 Guess who isnt good at rigid bodies. Me! I kept doing the same thing over and over again, wondering why it wasnt rigid, then realized I was selecting the wrong one... Anyways, I added all my switches, added the rotrary encoder, lipo battery, and on off switch.
 
-Next steps: Finsih the case
+Next steps: Finish the case
 
-![title](journal_imgs/may15cad.png)
+![CAD work](journal_imgs/may15cad.png)
 **Total time spent: 0.75 hours**
 # May 14: ordered PCB (YAY) and then added routing holes. 
 Title speaks mainly for itself. Took forever to add because I spent like 30 mins alone (didn't add to total time because atp this level of stupidity shouldnt count) on getting the stupid file to upload to JLCpcb. Guess the issue. I didn't have an account. Apparently by not having an account, uploading gerber files doesn't even work properly... (im really slow i don't really know how to use fusion)
