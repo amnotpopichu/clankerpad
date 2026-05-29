@@ -3,10 +3,30 @@ title: "Clankerpad"
 author: "Leo Hsia"
 description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It will contain 8 Glorious Panda switches with a EC11 rotary encoder. The keycaps will be taken from a set of GMK Samarais, with a custom PCB and a 3d printed case."
 ---
+# May 29: Case work, lipo soldering
+Grab the different PCB, because JLC PCB gave me five of them when ordering. What I did was I've resoldered with SMD work, which took about 30 minutes, getting another hot plate from our chemistry lab. After that, I decided to start desoldering the stuff, so I asked one of our shop teachers how to desolder. He went through a little guide on how to solder properly, and after about an hour or so of work, I desoldered all the switches from that. I took the desoldered switch and resoldered them back onto the new board.
+
+![img]([img.png])
+
+**Total time spent: 1 hours**
+# May 28: redid smd, desoldered
+Grab the different PCB, because JLC PCB gave me five of them when ordering. What I did was I've resoldered with SMD work, which took about 30 minutes, getting another hot plate from our chemistry lab. After that, I decided to start desoldering the stuff, so I asked one of our shop teachers how to desolder. He went through a little guide on how to solder properly, and after about an hour or so of work, I desoldered all the switches from that. I took the desoldered switch and resoldered them back onto the new board.
+
+![YAY ITS DONE]([final.png])
+
+**Total time spent: 1.5 hours**
+# May 22: Case is done + PCB work (and some pcb frying)
+My PCB and stuff arrived, so I did a lot of work on that. I ran into a few main issues. My first issue is I don't know how to SMD solder. Luckily my school ordered solder paste, so after about an hour. After an hour of re-soldering and desoldering because I don't know how to use surface mount soldering, I ended up getting it to work, so I was really happy about that. After that, I was connecting the stuff and I was connecting my lipo battery, and while soldering my lipo battery together, I accidentally shorted it, because one of the wires came out. So now that one of the wires came out and it was shorted, I tried to take out the battery. Then, because I was really smart and I was really lazy, I decided I was going to drill a hole through my PCB to get rid of the solder instead of desoldering, because desoldering globs is really hard. So then after that, I tried using a different battery pack because I had a battery pack that wasn't rechargeable in LiPo battery. What I realized was that I had actually ruined the PCB, and I would have to completely restart. All my work putting all the keys on was essentially for nothing. 
+
+![hotplate]([hotplate.png])
+![lipoconnector snaps]([lipo.png])
+**Total time spent: 3 hours**
 # May 21: CASE IS ALMOST FULLY DONE!!
 This is so incredibly impressive how badly I messed it up. I managed to print my PCB, with my measurements for screw holes set at 3 mm for M3, but i set it as radius. oml. anyways, I fixed it, and finished designing the rest of the case (i hope) I still need to add my line to where my 3d print is split in two, so it can print properly. Had to spend about an hour on a call with my friend (who knows cad) on how to actaully get my models to work (spoiler alert don't use capture position). Today I learned how section analysis works, how to use projections properly, that I need to check every measurement 5 times before sending it off to the manufacturer otherwise ill mess up screwholes again. 
 
 Also my really scuffed solution to the screw hole issue was to make a sandwich and hope that the tolerences don't get messed up and can actaully hold the PCB in place without breaking. (we will find out once i print). I think I will use glue to bind the two parts of the print together.
+
+(PS i had some more time i didnt log and won't but the other day i had to spend a lot of time figuring stuff out on how im going to do SMD because i didn't realize how small it was, and i have no idea how to use paste pls help cus i have NO clue how im going to go about getting the bottom battery pads to solder). Tldr: i dont know how to do SMD, and our school bought more solder paste and we will hope and pray for the best.
 
 Next steps: Finish case fully, and add holes, double check, and try to figure out how to use a 3d printer.
 ![cad](journal_imgs/may21cad.png)
