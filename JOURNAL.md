@@ -4,7 +4,7 @@ author: "Leo Hsia"
 description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It will contain 8 Glorious Panda switches with a EC11 rotary encoder. The keycaps will be taken from a set of GMK Samarais, with a custom PCB and a 3d printed case."
 ---
 # May 29: Case work, lipo soldering
-Grab the different PCB, because JLC PCB gave me five of them when ordering. What I did was I've resoldered with SMD work, which took about 30 minutes, getting another hot plate from our chemistry lab. After that, I decided to start desoldering the stuff, so I asked one of our shop teachers how to desolder. He went through a little guide on how to solder properly, and after about an hour or so of work, I desoldered all the switches from that. I took the desoldered switch and resoldered them back onto the new board.
+Today, we worked on making the casing glue together using some plastic glue. I soldered the LiPo battery, and it didn't work for a while, so then I had to solder it to a different port to make it work. 
 
 ![img](journal_imgs/final.jpg)
 
