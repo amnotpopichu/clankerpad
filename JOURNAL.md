@@ -3,6 +3,15 @@ title: "Clankerpad"
 author: "Leo Hsia"
 description: "Clankerpad is a bluetooth macropad based on a XIAO nRF52840. It will contain 8 Glorious Panda switches with a EC11 rotary encoder. The keycaps will be taken from a set of GMK Samarais, with a custom PCB and a 3d printed case."
 ---
+# June 3rd: Firmware
+This took me about an hour, but because I don't want to get more deflated than I already am, and Claude did half the work after i got tired after writing self reflections for every single class. Anyways it works with ZMK studio, so fun! I have two layers, aka two pcb layouts i can use so im prety happy. yay claude!!
+
+im trash at github so i just made it a new repo cus i dont really wana learn subrepos rn so yeah lol
+
+also config link here: https://github.com/amnotpopichu/clankerpad-zmk-config
+![img](journal_imgs/actgit.png)
+
+**Total time spent: 0 hours**
 # May 29: Case work, lipo soldering
 Today, we worked on making the casing glue together using some plastic glue. I soldered the LiPo battery, and it didn't work for a while, so then I had to solder it to a different port to make it work. 
 
