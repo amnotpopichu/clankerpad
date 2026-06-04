@@ -22,7 +22,7 @@ If there is some really odd journal entries, ie spending 3 hours on pcb design, 
 tldr: im not tryna commit fraud im js stupid and brand new :(
 
 # Credits
-Big thank you to everyone in HC that offered advice with my questions, and super huge thank you to [@JBlitzar]([https://github.com](https://github.com/JBlitzar)) and [@hekinav]([https://github.com](https://github.com/hekinav))
+Big thank you to everyone in HC that offered advice with my questions, and super huge thank you to [@JBlitzar](https://github.com/JBlitzar) and [@hekinav](https://github.com/hekinav)
 
 |Name                       |Link                                                                                     |Quantity|Total cost                              |
 |---------------------------|-----------------------------------------------------------------------------------------|--------|----------------------------------------|
