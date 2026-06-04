@@ -1,6 +1,10 @@
 # Clankerpad
 Clankerpad is a 8 switch + rotary encoder bluetooth macropad built on the ZMK supported Xiao nRF52840. Also my first big electronics project and custom pcb. I made this project because I am brand new to electronics, so I felt that this would be a nice fun challenging twist on a already really cool project.
 
+# Firmware
+https://github.com/amnotpopichu/clankerpad-zmk-config
+Final link above, I did half of it, half of it was claude. I dont know how subrepos work, see my most recent journal entry, i hope this is ok.
+
 # Images
 ![img](journal_imgs/final.jpg)
 ![img](journal_imgs/cadmodel.jpg)
