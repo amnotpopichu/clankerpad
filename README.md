@@ -10,6 +10,7 @@ Final link above, I did half of it, half of it was claude. I dont know how subre
 ![img](journal_imgs/cadmodel.jpg)
 ![img](journal_imgs/finalpcb.png)
 ![img](journal_imgs/finalsch.png)
+![img](journal_imgs/cadmodel.png.png)
 # Disclaimer/Notes
 I am importing most of this journal from a previous google doc that I had running for it. Times to do things may look crazy but i swear im not commiting fraud im just a bit stupid and this is my first project. If verb tense look weird, sorry, I am rewriting some entries to make it more clear (my old ones kinda sucked).
 
